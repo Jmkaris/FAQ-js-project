@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:  hsl(292, 16%, 49%);
+    font-size: 16px;
+    
+}
+.top-image{
+    background: url('assets/images/background-pattern-desktop.svg');
+    height: 140px;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    height: 100vh;
+}
+.yes-form{
+    background-color: aliceblue;
+    border-radius: 10px;
+    padding: 10px;
+    width: 100%;
+    max-width: 500px;
+}
+
+.yes-form p, h2{
+    padding: 1px 10px;
+}
+
+.yes-form .smallHeader{
+    color: #858282;
+}
+
+.yes-form .active{
+    display: none;
+}
+
+.yes-form .display{
+    display: block;
+}
+
+.yes-form h2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+}
+
+.yes-form h1{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: bolder;
+
+}
